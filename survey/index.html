@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Survey</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Survey</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+      </div>  <!-- /JUMBOTRON -->
+
+  <!-- Row: 1 -->
+      <div class="row">
+        <div class="col-sm-6">
+
+  <!-- Form -->
+          <form action="survey.php">
+            <div class="form-group">
+              <label for="">Name</label>
+              <input class="form-control" type="text" name="name" value="">
+            </div>
+
+            <div class="form-group">
+              <label for="">Say something cool</label>
+              <textarea class="form-control" name="cool" value=""></textarea>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="colors" id="redRadio" value="Red" checked>
+                Red
+              </label>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="colors" id="whiteRadio" value="White">
+                White
+              </label>
+            </div>
+
+            <div class="radio">
+              <label>
+                <input type="radio" name="colors" id="blueRadio" value="Blue">
+                Blue
+              </label>
+            </div>
+
+            <!-- <h4>Pick a number</h4>
+            <select class="form-control" name="number">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select> -->
+
+        <!-- Food -->
+            <!-- <h4>Favorite Food</h4>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="food[]" id="food" value="Chinese">Chinese
+              </label>
+            </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="food[]" id="food" value="Mexican">Mexican
+              </label>
+            </div>
+
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" name="food[]" id="food" value="Italian">Italian
+              </label>
+            </div> -->
+
+        <!-- Cars -->
+            <!-- <h4>Favorite Cars</h4>
+            <div class="checkbox-inline">
+                <label>
+                    <input type="checkbox" name="cars" value="Chevy">Chevy
+                </label>
+            </div>
+
+            <div class="checkbox-inline">
+                <label>
+                    <input type="checkbox" name="cars" value="Chevy">Honda
+                </label>
+            </div>
+
+            <div class="checkbox-inline">
+                <label>
+                    <input type="checkbox" name="cars" value="Ford">Ford
+                </label>
+            </div> -->
+
+            <!-- <h4>What's your sex?</h4>
+            <select class="form-control">
+                <option>Female</option>
+                <option>Male</option>
+                <option>Yes Please</option>
+            </select> -->
+
+            <br>
+            <button class="btn btn-info" type="submit" name="button">Gimme some sugar baby</button>
+
+          </form>
+
+        </div>  <!-- /col-sm-12 -->
+      </div>  <!-- /Row -->
+
+    </div>  <!-- /Container -->
+
+  </body>
+</html>

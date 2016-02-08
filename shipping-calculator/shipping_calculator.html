@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Shipping Calculator</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Shipping Calculator</h1>
+        <p>Lorem ipsum dolor sit amet, exercitation </p>
+      </div>  <!-- /JUMBOTRON -->
+
+  <!-- Row: 1 -->
+      <div class="row">
+        <h1>How much will it cost to ship your package?</h1>
+        <div class="col-sm-3">
+
+          <!-- Form -->
+
+          <form action="shipping_calculator.php">
+              <div class="form-group">
+                  <label for="weight">Weight of package (pounds):</label>
+                  <input id="weight" name="weight" class="form-control" type="float ">
+              </div>
+              <div class="form-group">
+                  <label for="distance">Distance shipped (miles):</label>
+                  <input id="distance" name="distance" class="form-control" type="number">
+              </div>
+
+              <button type="submit" class="btn-success">Submit</button>
+          </form>
+
+        </div>  <!-- /col-sm-12 -->
+      </div>  <!-- /Row -->
+
+    </div>  <!-- /Container -->
+
+  </body>
+</html>

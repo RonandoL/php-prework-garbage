@@ -1,0 +1,21 @@
+.vid {
+  max-width: 450px;
+  margin: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.clear {
+  clear: both;
+}
+
+.pic {
+  max-width: 100%;
+}
+
+img {
+  border: 2px solid black;
+  border-radius: 5px;
+}
